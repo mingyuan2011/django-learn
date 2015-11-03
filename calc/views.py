@@ -13,7 +13,7 @@ def add(request):
 	return HttpResponse(str(c))
 
 
-
+# for urls like /add/4/5
 def elegantAdd(request, a, b):
 	c = int(a) + int(b)
 	return HttpResponse(str(c))
