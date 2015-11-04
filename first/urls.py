@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^add/$','calc.views.add', name='calc.add'),
     url(r'^add/(\d+)/(\d+)/$', 'calc.views.elegantAdd', name='calc.elegantAdd'),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^learn/$', 'learn.views.home', name='learn.home'),
 ]

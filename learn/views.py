@@ -7,3 +7,6 @@ from django.http import HttpResponse
 def index(request):
 	return HttpResponse(u"Learn App in First Django Project")
 # Create your views here. 
+
+def home(request):
+	return render(request, 'home.html')
